@@ -1,0 +1,31 @@
+# point to your own profile pic you want to display in your link.my.bio
+picture: "static/filename_of_your_selfie.[png|jpg]"
+
+# it will appear just below your picture.
+name: "Your Full Name"
+# short auto biography about yourself
+shortbio: "brief paragraph that contains your short bio"
+
+# 'links' will be an array of any amount of links you want your followers to discover, notice that the name will be mere descriptive (it is not necesarily functional.)
+# each link will have 3 attributes:
+# - enable: this will tell your app to display/hide this link in your "link.my.bio"
+# - link: this is the link you want to "redirect" your users to, when they click on the button
+# - description: this will appear as the text in the button of your link
+
+links:
+    - facebook:
+        enable: True
+        link: "https://url_to_your.facebook.profile"
+        description: "check my facebook"
+    - instagram:
+        enable: True
+        link: "https://url_to_your.instagram.profile"
+        description: "How Cool my photos are in instagram :camera:"
+    - blog:
+        enable: False
+        link: "lorem ipsum"
+        description: "lorem ipsum dorem"
+    - etc:
+        enable: False
+        link: "http://etc.etc"
+        description: "any other link you want your followers to see"
