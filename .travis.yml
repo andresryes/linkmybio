@@ -17,4 +17,4 @@ deploy:
     repo: andresrys/https://github.com/andresryes/linkmybio
 
 #script: pytest
-script: python bio.py
+script: python app.py
