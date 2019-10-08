@@ -15,7 +15,7 @@ links:
     - 0:
         enable: True
         link: "https://url_to_your.facebook.profile"
-        description: "check my facebook"
+        description: "check my facebook "
         until: "2019/9/30 20:30:00"
     - 1:
         enable: True
