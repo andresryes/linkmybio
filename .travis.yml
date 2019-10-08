@@ -14,7 +14,7 @@ deploy:
     secure: 5386d794-b3ed-465b-a28b-dd551af1c0a8
   app: andresryes-linktree
   on:
-    repo: andresrys/https://github.com/andresryes/linkmybio
+    repo: https://github.com/andresryes/linkmybio
 
 script: pytest
 #script: python app.py
