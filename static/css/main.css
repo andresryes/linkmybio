@@ -2,3 +2,98 @@
     align-content: flex-start;
     height: 10px;
 }
+
+.theme.colourway-custom .service .user-name,
+.theme.colourway-custom .service .btn-link,
+.theme.colourway-custom .service .newsletter-form .disclaimer,
+.theme.colourway-custom .service .newsletter-form * {
+    font-family: 'Capriola', 'karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+            .theme.colourway-custom {
+        background-image: url('https://cdn.britannica.com/05/94905-050-1830515C/Whirlpool-Galaxy-NGC-5195-Sc.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+                    
+.user-profile__social-icon {
+                    fill: #FFFFFF
+            }
+
+.theme.colourway-custom .service .user-name {
+                    color: #FFFFFF
+            }
+
+.theme.colourway-custom .btn-link,
+.theme.colourway-custom .newsletter-form form:not(.active) {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+
+                    background-color: #FFFFFF;
+        color: #1F8353;
+    
+    
+                    border-radius: 100px;
+            }
+
+.theme.colourway-custom .icon-wrap {
+                    border-radius: 100px;
+            }
+
+.theme.colourway-custom .link .thumbnail {
+                    border-radius: 100px;
+            }
+
+.service.theme.colourway-custom .btn-link:hover,
+.service.theme.colourway-custom .newsletter-form form:not(.active):hover {
+                    background-color: transparent;
+        color: #FFFFFF;
+        border-color: #FFFFFF;
+            }
+
+
+
+.theme.colourway-custom .newsletter-form form.loading {
+            }
+
+.theme.colourway-custom .service section.service-footer h1 .logo {
+                    background-image: url('~images/logo_white_trees_white.svg');
+            }
+
+                
+
+@keyframes animate-swipe {
+    4.16%,
+    8.33% {
+        background-position: 0 0;
+        color: #FFFFFF
+    }
+
+    12.49%,
+    20.83% {
+        background-position: -100% 0;
+        color: #1F8353
+    }
+
+    24.99%,
+    29.16% {
+        background-position: 0 0;
+        color: #FFFFFF
+    }
+
+    33.33% {
+        background-position: 100% 0;
+        color: #1F8353
+    }
+}
+
+.service.theme.colourway-custom .btn-link.animate-swipe {
+    background-image: linear-gradient(to right, transparent 50%, #FFFFFF 50%);
+    color: #1F8353;
+}

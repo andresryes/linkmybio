@@ -52,126 +52,36 @@
         DD_LOGS.init({clientToken: 'pub3db8d3d428a9e7cfc73bf41abb7268cc', forwardErrorsToLogs: true});
     </script><link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"><link rel="stylesheet" type="text/css" href="https://d1qr63pinnvtia.cloudfront.net/assets/551ebb8f46e4b42a5676d81439479ae9d22971af/styles/main_551ebb8f46e4b42a5676d81439479ae9d22971af.css"><link rel="stylesheet" type="text/css" href="https://d1qr63pinnvtia.cloudfront.net/assets/551ebb8f46e4b42a5676d81439479ae9d22971af/styles/service_551ebb8f46e4b42a5676d81439479ae9d22971af.css"><script src="https://d1qr63pinnvtia.cloudfront.net/assets/551ebb8f46e4b42a5676d81439479ae9d22971af/scripts/vendor_551ebb8f46e4b42a5676d81439479ae9d22971af.js"></script><script src="https://d1qr63pinnvtia.cloudfront.net/assets/551ebb8f46e4b42a5676d81439479ae9d22971af/scripts/main_551ebb8f46e4b42a5676d81439479ae9d22971af.js"></script></head><body class="    service theme
 colourway-custom
-" data-account=""><link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet"><style>
-                                            
-    .theme.colourway-custom .service .user-name,
-    .theme.colourway-custom .service .btn-link,
-    .theme.colourway-custom .service .newsletter-form .disclaimer,
-    .theme.colourway-custom .service .newsletter-form * {
-        font-family: 'Capriola', 'karla', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-    }
+" data-account="">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
-    
-    
-                .theme.colourway-custom {
-            background-image: url('https://cdn.britannica.com/05/94905-050-1830515C/Whirlpool-Galaxy-NGC-5195-Sc.jpg');
-            background-position: center;
-            background-size: cover;
-        }
-    
-                        
-    .user-profile__social-icon {
-                        fill: #FFFFFF
-                }
+<link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet"><style>
+                
+</style><div class="service"><header class="service-header"></header><section class="main"><div class="container service-container"><div class="user-area"><div class="text-xs-center"><span class="img-circle"><img class="user-img" src="{{ url_for('static', filename=picture ) }}"/></span><h3><a class="user-name btn">
+           {{name}}
+           <br>@andresryes
+        </a></h3>
 
-    .theme.colourway-custom .service .user-name {
-                        color: #FFFFFF
-                }
-
-    .theme.colourway-custom .btn-link,
-    .theme.colourway-custom .newsletter-form form:not(.active) {
-        border-width: 2px;
-        border-style: solid;
-        border-color: #FFFFFF;
-
-                        background-color: #FFFFFF;
-            color: #1F8353;
-        
-        
-                        border-radius: 100px;
-                }
-
-    .theme.colourway-custom .icon-wrap {
-                        border-radius: 100px;
-                }
-
-    .theme.colourway-custom .link .thumbnail {
-                        border-radius: 100px;
-                }
-
-    .service.theme.colourway-custom .btn-link:hover,
-    .service.theme.colourway-custom .newsletter-form form:not(.active):hover {
-                        background-color: transparent;
-            color: #FFFFFF;
-            border-color: #FFFFFF;
-                }
-
-    
-    
-    .theme.colourway-custom .newsletter-form form.loading {
-                }
-
-    .theme.colourway-custom .service section.service-footer h1 .logo {
-                        background-image: url('~images/logo_white_trees_white.svg');
-                }
-
-                    
-    
-    @keyframes animate-swipe {
-        4.16%,
-        8.33% {
-            background-position: 0 0;
-            color: #FFFFFF
-        }
-
-        12.49%,
-        20.83% {
-            background-position: -100% 0;
-            color: #1F8353
-        }
-
-        24.99%,
-        29.16% {
-            background-position: 0 0;
-            color: #FFFFFF
-        }
-
-        33.33% {
-            background-position: 100% 0;
-            color: #1F8353
-        }
-    }
-
-    .service.theme.colourway-custom .btn-link.animate-swipe {
-        background-image: linear-gradient(to right, transparent 50%, #FFFFFF 50%);
-        color: #1F8353;
-    }
-</style><div class="service"><header class="service-header"></header><section class="main"><div class="container service-container"><div class="user-area"><div class="text-xs-center"><span class="img-circle"><img class="user-img" src="{{ url_for('static', filename='resources/img/andres3.jpeg') }}"/></span><h3><a class="user-name btn">
-            @andresryes
-        </a></h3></div></div><div class="links"><div><div><div class="link"><a href="#" data-link-id="7910293" data-link-title="" data-link-url="https://jamieol.com/OrderJamiesVeg" data-account-id="1037792" data-account-username="jamieoliver" class="btn btn-link   " target="_blank" rel="noopener">
-    Link 1
-        </a></div><div class="link"><a href="https://jamieol.com/MeatFreeMealsRecipes" data-link-id="13529950" data-link-title="My Meat-Free Meals recipes" data-link-url="https://jamieol.com/MeatFreeMealsRecipes" data-account-id="1037792" data-account-username="jamieoliver" class="btn btn-link   " target="_blank" rel="noopener">
-    Link 8
-        </a></div><div class="link"><a href="http://bit.ly/2lyBBGB" data-link-id="14611644" data-link-title="#EatYourFridge Tips &amp; Hacks" data-link-url="http://bit.ly/2lyBBGB" data-account-id="1037792" data-account-username="jamieoliver" class="btn btn-link   " target="_blank" rel="noopener">
-    Link 1
-        </a></div><div class="link"><a href="http://jamieol.com/VEGEPEDIA" data-link-id="11487597" data-link-title="Welcome to VEGEPEDIA" data-link-url="http://jamieol.com/VEGEPEDIA" data-account-id="1037792" data-account-username="jamieoliver" class="btn btn-link   " target="_blank" rel="noopener">
-    Link 7
-        </a></div><div class="link"><a href="http://amazon.co.uk/JamieOliver" data-link-id="13577516" data-link-title="My Amazon range" data-link-url="http://amazon.co.uk/JamieOliver" data-account-id="1037792" data-account-username="jamieoliver" class="btn btn-link   " target="_blank" rel="noopener">
-    Link 5
-        </a></div><div class="link"><a href="https://jamieol.com/Tcs" data-link-id="7331974" data-link-title="My terms &amp; conditions" data-link-url="https://jamieol.com/Tcs" data-account-id="1037792" data-account-username="jamieoliver" class="btn btn-link   " target="_blank" rel="noopener">
-    Link 3
-        </a></div><div style="display:none">
+    </div></div><div class="links"><div><div>
+        {% for item in links %}
+        <div class="link"><a href="{{item.get('link')}}" data-link-id="7910293" data-link-title="" data-link-url="{{item.get('link')}}" data-account-id="1037792" data-account-username="andresryes" class="btn btn-link   " target="_blank" rel="noopener">
+            {{item.get('description')}}
+        </a></div>
+        {% endfor %}
+        <div style="display:none">
 scheduled
 1
 time
 00:19:01
 </div>
-</div></div></div><div class="user-profile__social__links"><a href="https://facebook.com/jamieoliver" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon" viewBox="0 0 30 30"><path d="M16.108,8.215c-1.4,0-2.539,1.139-2.539,2.538v3.22h-1.715c-0.276,0-0.5,0.224-0.5,0.5s0.224,0.5,0.5,0.5h1.715v6.312
+<div class="service"><header class="service-header"></header><section class="main"><div class="container service-container"><div class="user-area"><div class="text-xs-center"><h3><a class="user-name btn">
+    {{shortbio}}
+ </a></h3>
+</div></div>
+</div></div></div><div class="user-profile__social__links"><a href="{{social[0].get('link')}}" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon" viewBox="0 0 30 30"><path d="M16.108,8.215c-1.4,0-2.539,1.139-2.539,2.538v3.22h-1.715c-0.276,0-0.5,0.224-0.5,0.5s0.224,0.5,0.5,0.5h1.715v6.312
 c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-6.312h2.425c0.276,0,0.5-0.224,0.5-0.5s-0.224-0.5-0.5-0.5h-2.425v-3.22
 c0-0.848,0.69-1.538,1.539-1.538c0.848,0,1.539,0.69,1.539,1.538c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5
-C18.646,9.353,17.508,8.215,16.108,8.215z"/></svg></a><a href="https://twitter.com/jamieoliver" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon" viewBox="0 0 30 30"><path d="M12.254,22c-2.574,0-4.745-1.172-4.745-1.908c0-0.276,0.251-0.521,0.528-0.521c1.023,0,2.003-0.25,2.882-0.73
+C18.646,9.353,17.508,8.215,16.108,8.215z"/></svg></a><a href="{{social[1].get('link')}}" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon" viewBox="0 0 30 30"><path d="M12.254,22c-2.574,0-4.745-1.172-4.745-1.908c0-0.276,0.251-0.521,0.528-0.521c1.023,0,2.003-0.25,2.882-0.73
       c-0.951-0.444-2.103-1.336-2.906-2.625c-0.918-1.471-1.68-3.937-0.1-7.326c0.073-0.156,0.221-0.265,0.392-0.285
       c0.175-0.023,0.341,0.048,0.45,0.182c1.439,1.777,3.508,2.92,5.748,3.191c-0.003-0.064-0.005-0.131-0.005-0.196
       C14.497,9.696,16.182,8,18.255,8c0.961,0,1.892,0.375,2.586,1.036H22.5c0.169,0,0.328,0.086,0.419,0.229
@@ -181,11 +91,11 @@ C18.646,9.353,17.508,8.215,16.108,8.215z"/></svg></a><a href="https://twitter.co
       c-1.521,0-2.758,1.248-2.758,2.781c0,0.219,0.024,0.432,0.071,0.634c0.036,0.153-0.002,0.314-0.103,0.435
       c-0.101,0.12-0.247,0.195-0.409,0.179c-2.481-0.125-4.822-1.208-6.539-3c-0.982,2.61-0.378,4.501,0.344,5.658
       c1.002,1.607,2.637,2.469,3.233,2.48c0.211,0.004,0.397,0.141,0.464,0.341c0.067,0.2,0.001,0.421-0.165,0.552
-      C11.508,19.758,10.497,20.224,9.417,20.437z"/></svg></a><a href="https://instagram.com/jamieoliver" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon"  viewBox="0 0 30 30"><path d="M15,11c-2.206,0-4,1.794-4,4s1.794,4,4,4s4-1.794,4-4S17.206,11,15,11z M15,18c-1.654,0-3-1.346-3-3s1.346-3,3-3
+      C11.508,19.758,10.497,20.224,9.417,20.437z"/></svg></a><a href="{{social[2].get('link')}}" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon"  viewBox="0 0 30 30"><path d="M15,11c-2.206,0-4,1.794-4,4s1.794,4,4,4s4-1.794,4-4S17.206,11,15,11z M15,18c-1.654,0-3-1.346-3-3s1.346-3,3-3
     s3,1.346,3,3S16.654,18,15,18z"/><path d="M19.271,10.174c-0.329,0-0.597,0.269-0.597,0.598s0.268,0.598,0.597,0.598s0.597-0.269,0.597-0.598
     S19.601,10.174,19.271,10.174z"/><path d="M19.156,7.5h-8.312C9,7.5,7.5,9,7.5,10.844v8.312C7.5,21,9,22.5,10.844,22.5h8.312C21,22.5,22.5,21,22.5,19.156v-8.312
     C22.5,9,21,7.5,19.156,7.5z M21.5,19.156c0,1.292-1.052,2.344-2.344,2.344h-8.312c-1.292,0-2.344-1.052-2.344-2.344v-8.312
-    C8.5,9.552,9.552,8.5,10.844,8.5h8.312c1.292,0,2.344,1.052,2.344,2.344V19.156z"/></svg></a><a href="https://www.youtube.com/JamieOliver" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon" viewBox="0 0 30 30"><path d="M15,22.3c-0.2,0-5.4,0-6.8-0.4c-0.9-0.2-1.6-1-1.9-1.9c-0.4-1.4-0.4-4.1-0.4-4.3s0-2.9,0.4-4.3c0.2-0.9,1-1.6,1.9-1.9
+    C8.5,9.552,9.552,8.5,10.844,8.5h8.312c1.292,0,2.344,1.052,2.344,2.344V19.156z"/></svg></a><a href="{{social[3].get('link')}}" target="_blank" class="user-profile__social__links__item" class="user-profile__social__links__item"><svg class="user-profile__social-icon" viewBox="0 0 30 30"><path d="M15,22.3c-0.2,0-5.4,0-6.8-0.4c-0.9-0.2-1.6-1-1.9-1.9c-0.4-1.4-0.4-4.1-0.4-4.3s0-2.9,0.4-4.3c0.2-0.9,1-1.6,1.9-1.9
       c1.4-0.4,6.6-0.4,6.8-0.4s5.4,0,6.8,0.4c0.9,0.2,1.6,1,1.9,1.9l0,0c0.4,1.4,0.4,4.1,0.4,4.3c0,0.1,0,2.9-0.4,4.3
       c-0.2,0.9-1,1.6-1.9,1.9C20.4,22.2,15.2,22.3,15,22.3z M15,10.2c-1.5,0-5.5,0.1-6.6,0.3c-0.6,0.2-1,0.6-1.2,1.2
       c-0.3,1.3-0.3,4-0.3,4s0,2.7,0.3,4c0.2,0.6,0.6,1,1.2,1.2c1,0.3,5.1,0.3,6.6,0.3s5.5-0.1,6.6-0.3c0.6-0.2,1-0.6,1.2-1.2
@@ -208,4 +118,6 @@ if (!window.dataLayer) {
 // Add tier to datalayer
 window.dataLayer.push(window.linktree_data)
 
-</script></body></html>
+</script>
+
+</body></html>
