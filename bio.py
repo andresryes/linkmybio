@@ -52,4 +52,4 @@ if __name__ == "__main__":
     debug=False
     if environment == "development" or environment == "local":
         debug=True
-    app.run(host="0.0.0.0",debug=debug)
+    app.run(host="0.0.0.0",port=80,debug=False)
