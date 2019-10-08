@@ -42,7 +42,8 @@ def about():
 def addLink():
     print(request.headers.get('User'))
     if(request.headers.get('User') == 'andr' and request.headers.get('Pass') == '1234'):
-        links.append(request.form.to_dict())
+        print(request.get_json().get('link'))
+        links.append(request.get_json().get('link'))
         return {'response' : "link added correctly"}
     else:
         return {'response': "could not add the link incorrect credentials"}
@@ -52,4 +53,4 @@ if __name__ == "__main__":
     debug=False
     if environment == "development" or environment == "local":
         debug=True
-    app.run(host="0.0.0.0",port=80,debug=False)
+    app.run(host="0.0.0.0",port=5000,debug=False)
