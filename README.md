@@ -82,7 +82,7 @@ See you can add any style to your own project. These are only ideas.
 - [x] **FORK** THIS REPO!
 - [x] Your project will read the links.yaml file and generate the webpage to start serving it as desired.
 - [x] Project MUST compile
-- [ ] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
+- [x] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
 - [x] Add Style, suggestions "bootstrap.css"
 - [x] Deliver it via `git tags`
 - [x] Make sure to use/develop/fill the empty files/folders provided: `static/`, `templates/`, `bio.py` , `requirements.txt`.
@@ -90,8 +90,47 @@ See you can add any style to your own project. These are only ideas.
 
 # Usage
 
-> put your code here
+There are 3 ways to run this project. You can only hit https://andresryes.herokuapp.com and see my link-tree.
 
+To run it locally clone this repository and do one of the following:
+
+<h2>1. Python</h2>
+
+```bash
+pip install -r requirements.txt
+
+python app.py
+```
+
+<h2>2. Docker</h2>
+
+You can build the image, and run it as
+
+```bash
+docker build --rm -f "Dockerfile" -t name:latest .
+
+docker run -it -p 5000:5000 name:latest
+```
+Or pull the image directly from Dockerhub
+
+```bash
+
+docker run -it -p 5000:5000 andresry/linktree
+
+```
+> With both of these two methods, Python and Docker, you will be able to send some links via https://localhost:5000/link with the following format in the body using POST method:
+
+* In order to make the POST method to work, you will have to send in headers these two parameters: "User = andr" and "Pass = 1234", Postman is recommended to try this feature.
+
+```json
+{
+      "link": {
+        "enable": true,
+        "link": "some cool link you'd like to add", 
+        "description": "some cool description"
+      }
+}
+```
 
 # Extras:
 - You can **add** any other attribute you like in order to add more functionalities.
