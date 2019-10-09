@@ -14,33 +14,44 @@ shortbio: "I'm a Computer Science student who loves to code and math."
 links:
     - 0:
         enable: True
-        link: "https://url_to_your.facebook.profile"
-        description: "check my facebook "
-        until: "2019/9/30 20:30:00"
+        link: "https://www.linkedin.com/in/andresryes/"
+        description: "Look at my LinkedIn profile"
+        until: "2019/10/30 20:30:00"
     - 1:
         enable: True
-        link: "https://url_to_your.facebook.profile"
-        description: "check my facebook"
+        link: "https://github.com/andresryes"
+        description: "Here are some of my repos in GitHub"
+        until: "2019/10/30 20:30:00"
     - 2:
         enable: True
-        link: "https://url_to_your.facebook.profile"
-        description: "check my facebook"
+        link: "https://hub.docker.com/u/andresry"
+        description: "Take a look on my DockerHub"
+        until: "2019/10/30 20:30:00"
     - 3:
         enable: True
-        link: "https://url_to_your.facebook.profile"
-        description: "check my facebook"
+        link: "https://gitlab.com/andresryes"
+        description: "Check out my projects on GitLab"
+        until: "2019/10/30 20:30:00"
     - 4:
         enable: True
-        link: "https://url_to_your.facebook.profile"
-        description: "check my facebook"
+        link: "https://www.reddit.com/user/andresryes"
+        description: "Follow me on Reddit"
+        until: "2019/10/30 20:30:00"
     - 5:
         enable: True
-        link: "https://url_to_your.facebook.profile"
-        description: "check my facebook"
+        link: "mailto:andresbolanosreyes@gmail.com"
+        description: "Send me an email!"
+        until: "2019/10/30 20:30:00"
     - 6:
+        enable: True
+        link: "https://openastronomy.org"
+        description: "OpenAstronomy"
+        until: "2019/10/30 20:30:00"
+    - 7:
         enable: False
-        link: "https://url_to_your.facebook.profile"
-        description: "check my facebook"
+        link: "https://www.reddit.com/user/andresryes"
+        description: "Reddit again"
+        until: "2019/10/30 20:30:00"
 
 social:
     - 0:

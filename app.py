@@ -22,13 +22,16 @@ print(info['shortbio'])
 
 social = []
 for i in range(len(info['social'])):
-    social.append(info['social'][i].get(i))
-    print(info['social'][i].get(i))
+    if info['social'][i].get(i).get('enable') == True:
+        social.append(info['social'][i].get(i))
+    #print(info['social'][i].get(i))
 
 links = []
 for i in range(len(info['links'])):
-    links.append(info['links'][i].get(i))
-    print(info['links'][i].get(i))
+    if info['links'][i].get(i).get('enable') == True:
+        links.append(info['links'][i].get(i))   
+    #links.append(info['links'][i].get(i))
+    #print(info['links'][i].get(i))
 
 @app.route("/")
 def about():
