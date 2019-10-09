@@ -4,7 +4,7 @@ picture: "resources/img/andres3.jpeg"
 # it will appear just below your picture.
 name: "Andres Bolaños"
 # short auto biography about yourself
-shortbio: "I'm a Computer Science student who loves to code and math."
+shortbio: "I'm a Computer Science student who loves science and code."
 
 # 'links' will be an array of any amount of links you want your followers to discover, notice that the name will be mere descriptive (it is not necesarily functional.)
 # each link will have 3 attributes:
@@ -19,35 +19,40 @@ links:
         until: "2019/10/30 20:30:00"
     - 1:
         enable: True
-        link: "https://github.com/andresryes"
-        description: "Here are some of my repos in GitHub"
+        link: "/download"
+        description: "Feel free to download my Curriculum Vitae"
         until: "2019/10/30 20:30:00"
     - 2:
-        enable: True
-        link: "https://hub.docker.com/u/andresry"
-        description: "Take a look on my DockerHub"
-        until: "2019/10/30 20:30:00"
-    - 3:
-        enable: True
-        link: "https://gitlab.com/andresryes"
-        description: "Check out my projects on GitLab"
-        until: "2019/10/30 20:30:00"
-    - 4:
-        enable: True
-        link: "https://www.reddit.com/user/andresryes"
-        description: "Follow me on Reddit"
-        until: "2019/10/30 20:30:00"
-    - 5:
         enable: True
         link: "mailto:andresbolanosreyes@gmail.com"
         description: "Send me an email!"
         until: "2019/10/30 20:30:00"
+    - 3:
+        enable: True
+        link: "https://github.com/andresryes"
+        description: "Here are some of my repositories in GitHub"
+        until: "2019/10/30 20:30:00"
+    - 4:
+        enable: True
+        link: "https://hub.docker.com/u/andresry"
+        description: "Take a look on my DockerHub"
+        until: "2019/10/30 20:30:00"
+    - 5:
+        enable: True
+        link: "https://gitlab.com/andresryes"
+        description: "Check out my projects on GitLab"
+        until: "2019/10/30 20:30:00"
     - 6:
+        enable: True
+        link: "https://www.reddit.com/user/andresryes"
+        description: "Follow me on Reddit"
+        until: "2019/10/30 20:30:00"
+    - 7:
         enable: True
         link: "https://openastronomy.org"
         description: "OpenAstronomy"
         until: "2019/10/30 20:30:00"
-    - 7:
+    - 8:
         enable: False
         link: "https://www.reddit.com/user/andresryes"
         description: "Reddit again"

@@ -1,5 +1,5 @@
 #FLASK
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, send_file
 app = Flask(__name__)
 import os,optparse
 import yaml
@@ -51,6 +51,12 @@ def addLink():
     else:
         return {'response': "could not add the link incorrect credentials"}
     print(request.form.to_dict())
+
+@app.route('/download')
+def downloadFile ():
+    #For windows you need to use drive name [ex: F:/Example.pdf]
+    path = "./CV_Final.pdf"
+    return send_file(path, as_attachment=True)
 
 if __name__ == "__main__":
     debug=False
