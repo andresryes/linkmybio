@@ -52,6 +52,13 @@ def addLink():
         return {'response': "could not add the link incorrect credentials"}
     print(request.form.to_dict())
 
+@app.route('/cv')
+def CV_Final ():
+    #For windows you need to use drive name [ex: F:/Example.pdf]
+    path = "./CV_Final.pdf"
+    return send_file(path, as_attachment=False)
+
+
 @app.route('/download')
 def downloadFile ():
     #For windows you need to use drive name [ex: F:/Example.pdf]

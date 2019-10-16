@@ -97,3 +97,11 @@
     background-image: linear-gradient(to right, transparent 50%, #FFFFFF 50%);
     color: #1F8353;
 }
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .custom {
+        visibility: hidden;
+        color: black;
+    }
+  }

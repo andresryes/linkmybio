@@ -19,7 +19,7 @@ links:
         until: "2019/10/30 20:30:00"
     - 1:
         enable: True
-        link: "/download"
+        link: "/cv"
         description: "Feel free to download my Curriculum Vitae"
         until: "2019/10/30 20:30:00"
     - 2:
