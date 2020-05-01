@@ -35,7 +35,7 @@ for i in range(len(info['links'])):
 
 @app.route("/")
 def about():
-    return render_template("index.html", picture=picture, 
+    return render_template("index1.html", picture=picture, 
     name=name, 
     shortbio=shortbio,
     social=social,
@@ -69,4 +69,4 @@ if __name__ == "__main__":
     debug=False
     if environment == "development" or environment == "local":
         debug=True
-    app.run(host="0.0.0.0",port=5000,debug=False)
+    app.run(host="0.0.0.0",port=5000,debug=True)
