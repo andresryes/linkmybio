@@ -61,7 +61,7 @@ button {
 /* line 39, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Muli", sans-serif;
-  color: #001D38;
+  color: black;
 }
 
 /* line 43, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
@@ -342,7 +342,7 @@ h3 {
 /* line 272, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #615CFD;
+  background: gray;
   border: 1px solid transparent;
 }
 
@@ -376,19 +376,19 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #615CFD;
+  border: 1px solid gray;
   letter-spacing: 3px;
   text-align: center;
-  color: #615CFD !important;
+  color: gray !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #615CFD;
+  background: gray;
   color: #fff !important;
-  border: 1px solid #615CFD;
+  border: 1px solid gray;
 }
 
 /* line 22, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
@@ -404,7 +404,7 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #615CFD;
+  background: gray;
   color: #fff;
   display: inline-block;
   padding: 14px 38px;
@@ -428,8 +428,8 @@ h3 {
 
 /* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
-  border: 1px solid #615CFD;
-  color: #615CFD !important;
+  border: 1px solid gray;
+  color: gray !important;
   background: transparent;
 }
 
@@ -446,7 +446,7 @@ h3 {
 /* line 60, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn4 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #615CFD;
+  background: gray;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -470,7 +470,7 @@ h3 {
 
 /* line 79, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  background: #615CFD;
+  background: gray;
   color: #fff !important;
 }
 
@@ -532,14 +532,14 @@ h3 {
 
 /* line 125, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3-green-2 {
-  color: #615CFD !important;
+  color: gray !important;
   display: inline-block;
   padding: 14px 31px;
   font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #615CFD;
+  border: 1px solid gray;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -555,7 +555,7 @@ h3 {
 
 /* line 141, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3-green-2:hover {
-  background: #615CFD;
+  background: gray;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -632,8 +632,8 @@ h3 {
 .line_btn {
   display: inline-block;
   font-size: 15px;
-  color: #615CFD;
-  border: 1px solid #615CFD;
+  color: gray;
+  border: 1px solid gray;
   text-transform: capitalize;
   padding: 13px 34px;
   font-weight: 600;
@@ -641,7 +641,7 @@ h3 {
 
 /* line 205, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .line_btn:hover {
-  background: #615CFD;
+  background: gray;
   color: #fff;
 }
 
@@ -652,7 +652,7 @@ h3 {
   font-size: 13px;
   font-weight: 300;
   letter-spacing: 3px;
-  color: #001D38;
+  color: black;
   text-transform: uppercase;
   margin-bottom: 14px;
   display: block;
@@ -664,7 +664,7 @@ h3 {
   position: absolute;
   height: 60px;
   width: 1px;
-  background: #615CFD;
+  background: gray;
   content: '';
   left: 50%;
   bottom: 100%;
@@ -675,7 +675,7 @@ h3 {
   font-size: 50px;
   line-height: 62px;
   font-weight: 700;
-  color: #001D38;
+  color: black;
   position: relative;
   z-index: 0;
   padding-bottom: 15px;
@@ -1421,15 +1421,15 @@ h3 {
 
 /* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .social_links li a::before {
-  background: #615cfd;
+  background: gray;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #615cfd 0%, gray 100%);
+  background: -moz-linear-gradient(top, gray 0%, gray 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #615cfd 0%, gray 100%);
+  background: -webkit-linear-gradient(top, gray 0%, gray 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #615cfd 0%, gray 100%);
+  background: linear-gradient(to bottom, gray 0%, gray 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#615cfd', endColorstr='gray',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='gray', endColorstr='gray',GradientType=0 );
   /* IE6-9 */
   position: absolute;
   left: 0;
@@ -1648,7 +1648,7 @@ h3 {
 /* line 186, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text span::before {
   position: absolute;
-  background: #fff;
+  /*background: #fff;*/
   width: 50px;
   height: 2px;
   content: '';
@@ -2046,7 +2046,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
 .counter_area .single_counter h3 span {
-  color: #615CFD;
+  color: gray;
   font-size: 50px;
   font-weight: 700;
 }
@@ -2067,14 +2067,14 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
 .counter_area .single_counter p {
   font-size: 15px;
-  color: #001D38;
+  color: black;
   font-weight: 400;
   margin-bottom: 0;
 }
 
 /* line 35, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
 .counter_area .single_counter:hover {
-  border: 1px solid #615CFD;
+  border: 1px solid gray;
 }
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
@@ -2121,7 +2121,7 @@ h3 {
 .about_me .about_e_details h3 {
   font-size: 50px;
   font-weight: 700;
-  color: #001D38;
+  color: black;
 }
 
 /* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
@@ -2420,7 +2420,7 @@ h3 {
 .footer .footer_top {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #001D38;
+  background: black;
 }
 
 @media (max-width: 767px) {
@@ -2461,13 +2461,13 @@ h3 {
 
 /* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .footer_top .menu_links ul li a:hover {
-  color: #615CFD;
+  color: gray;
 }
 
 /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .copy-right_text {
   padding-bottom: 30px;
-  background: #001D38;
+  background: black;
 }
 
 /* line 41, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
@@ -2536,8 +2536,8 @@ h3 {
 /* line 84, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
   color: #fff !important;
-  background: #615CFD;
-  border: 1px solid #615CFD;
+  background: gray;
+  border: 1px solid gray;
 }
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_bradcam.scss */
@@ -2902,14 +2902,14 @@ h3 {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001d38+0,001d38+100&0+0,1+100 */
-  background: -moz-linear-gradient(left, rgba(0, 29, 56, 0) 0%, #001d38 100%);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/black+0,001d38+100&0+0,1+100 */
+  background: -moz-linear-gradient(left, rgba(0, 29, 56, 0) 0%, black 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(0, 29, 56, 0) 0%, #001d38 100%);
+  background: -webkit-linear-gradient(left, rgba(0, 29, 56, 0) 0%, black 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(0, 29, 56, 0) 0%, #001d38 100%);
+  background: linear-gradient(to right, rgba(0, 29, 56, 0) 0%, black 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00001d38', endColorstr='#001d38',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00001d38', endColorstr='black',GradientType=1 );
   /* IE6-9 */
   left: 0;
   top: 0;
@@ -2985,7 +2985,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_discuss.scss */
 .discuss_projects {
-  background: #001D38;
+  background: black;
   padding: 150px 0 50px 0;
 }
 
@@ -3091,7 +3091,7 @@ h3 {
 
 /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_service.scss */
 .service_area .single_service:hover {
-  border: 1px solid #615CFD;
+  border: 1px solid gray;
 }
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
@@ -3122,7 +3122,7 @@ h3 {
 .video_area .video_wrap .thumb .video_icon a {
   width: 90px;
   height: 90px;
-  background: #615CFD;
+  background: gray;
   display: inline-block;
   text-align: center;
   line-height: 90px;
@@ -3163,7 +3163,7 @@ h3 {
   font-size: 30px;
   font-weight: 600;
   line-height: 42px;
-  color: #001D38;
+  color: black;
 }
 
 @media (max-width: 767px) {
@@ -3206,7 +3206,7 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #001D38;
+  background: black;
   content: '';
 }
 
@@ -5138,7 +5138,7 @@ h6 {
 
 /* line 14, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #615CFD 0%, #615CFD 99%);
+  background: -webkit-linear-gradient(131deg, gray 0%, gray 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5649,7 +5649,7 @@ h6 {
 
 /* line 544, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #615CFD;
+  color: gray;
 }
 
 /* line 549, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
@@ -5717,7 +5717,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #615CFD;
+  background-color: gray;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -5945,7 +5945,7 @@ h6 {
 
 /* line 842, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #615CFD;
+  background: gray;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -6193,7 +6193,7 @@ h6 {
 
 /* line 1208, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #615CFD;
+  color: gray;
 }
 
 /* line 1213, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
@@ -6622,7 +6622,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #615CFD;
+  color: gray;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6649,7 +6649,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #615CFD;
+  background-color: gray;
   border-radius: 50%;
 }
 
