@@ -85,7 +85,8 @@
                     <li><a target="_blank" href="https://www.linkedin.com/in/andresryes/"> <i class="fa fa-linkedin"></i> </a></li>
                     <li><a target="_blank" href="https://twitter.com/andresryes_"> <i class="fa fa-twitter"></i> </a></li>
                     <li><a target="_blank" href="https://www.instagram.com/andresryes/"> <i class="fa fa-instagram"></i> </a></li>
-                    <li><a target="_blank" href="#"> <i class="fa fa-facebook"></i> </a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/andr.9810/"> <i class="fa fa-facebook"></i> </a></li>
+                    <li><a target="_blank" href="mailto:andresbolanosreyes@gmail.com"> <i class="fa fa-envelope"></i> </a></li>
                 </ul>
             </div>
             <div class="container">
@@ -106,14 +107,14 @@
     <!-- slider_area_end -->
 
     <!-- service_area  -->
-    <div class="service_area">
+    <div id="about" class="service_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-65">
-                        <span>Service Provided</span>
-                        <h3>Build brands campaigns  <br>
-                                & digital projects</h3>
+                        <span>Andres Reyes</span>
+                        <h3>About me</h3>
+                        <p>I consider myself as someone who is very optimistic, loyal and full of dreams. My passion is technology and science, and I think its correct use can positively change the world. I have high expectations for the future so I strive at all times to achieve success.</p>
                     </div>
                 </div>
             </div>
@@ -123,8 +124,8 @@
                         <div class="icon">
                             <img src="{{ url_for('static', filename='static/img/svg_icon/1.svg') }}" alt="">
                         </div>
-                        <h3>Graphic design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        <h3>Software Devolpment</h3>
+                        <p>I'm a full stack devoloper. I can do front-end and back-end as well.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -132,8 +133,8 @@
                         <div class="icon">
                             <img src="{{ url_for('static', filename='static/img/svg_icon/2.svg') }}" alt="">
                         </div>
-                        <h3>Web design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        <h3>Numerical Analysis</h3>
+                        <p>I love mathematics, numerical methods, astronomy and sciences.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -141,11 +142,20 @@
                         <div class="icon">
                             <img src="{{ url_for('static', filename='static/img/svg_icon/3.svg') }}" alt="">
                         </div>
-                        <h3>Mobile app</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        <h3>Systems Administration</h3>
+                        <p>I can work with servers, networks and containers.</p>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-65">
+                        <hr>
+                        <a target="_blank" class="boxed-btn3" href="/cv">Download CV</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!--/ service_area  -->
@@ -156,9 +166,9 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title white_text text-center">
-                        <span>Portfolios</span>
-                        <h3>Some of my awesome <br>
-                                stuffs here</h3>
+                        <span>interests</span>
+                        <h3>Some of awesome <br>
+                                stuffs I'm passionate about</h3>
                     </div>
                 </div>
             </div>
@@ -173,12 +183,12 @@
                 <div class="col-xl-5 col-md-5">
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
-                            <img src="img/portfolio/1.png" alt="">
+                            <img src="{{ url_for('static', filename='static/img/portfolio/1.png') }}" alt="">
                         </div>
-                        <a href="img/portfolio/1.png" class="popup popup-image"></a>
+                        <a href="{{ url_for('static', filename='static/img/portfolio/1.png') }}" class="popup popup-image"></a>
                         <div class="portfolio_hover">
                             <div class="title">
-                                    <h3>Product Design</h3>
+                                    <h3>Technology</h3>
                             </div>
                         </div>
                     </div>
@@ -186,12 +196,12 @@
                 <div class="col-xl-7 col-md-7">
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
-                            <img src="img/portfolio/2.png" alt="">
+                            <img src="{{ url_for('static', filename='static/img/portfolio/2.png') }}" alt="">
                         </div>
-                        <a href="img/portfolio/2.png" class="popup popup-image"></a>
+                        <a href="{{ url_for('static', filename='static/img/portfolio/2.png') }}" class="popup popup-image"></a>
                         <div class="portfolio_hover">
                             <div class="title">
-                                    <h3>Product Design</h3>
+                                    <h3>Astronomy</h3>
                             </div>
                         </div>
                     </div>
@@ -199,12 +209,12 @@
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
-                            <img src="img/portfolio/3.png" alt="">
+                            <img src="{{ url_for('static', filename='static/img/portfolio/3.png') }}" alt="">
                         </div>
-                        <a href="img/portfolio/3.png" class="popup popup-image"></a>
+                        <a href="{{ url_for('static', filename='static/img/portfolio/3.png') }}" class="popup popup-image"></a>
                         <div class="portfolio_hover">
                             <div class="title">
-                                    <h3>Product Design</h3>
+                                    <h3>Music</h3>
                             </div>
                         </div>
                     </div>
@@ -212,12 +222,12 @@
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
-                            <img src="img/portfolio/4.png" alt="">
+                            <img src="{{ url_for('static', filename='static/img/portfolio/4.png') }}" alt="">
                         </div>
-                        <a href="img/portfolio/4.png" class="popup popup-image"></a>
+                        <a href="{{ url_for('static', filename='static/img/portfolio/4.png') }}" class="popup popup-image"></a>
                         <div class="portfolio_hover">
                             <div class="title">
-                                    <h3>Product Design</h3>
+                                    <h3>Mathematics</h3>
                             </div>
                         </div>
                     </div>
@@ -225,36 +235,36 @@
                 <div class="col-xl-4 col-md-12 col-lg-4">
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
-                            <img src="img/portfolio/5.png" alt="">
+                            <img src="{{ url_for('static', filename='static/img/portfolio/5.png') }}" alt="">
                         </div>
-                        <a href="img/portfolio/5.png" class="popup popup-image"></a>
+                        <a href="{{ url_for('static', filename='static/img/portfolio/5.png') }}" class="popup popup-image"></a>
                         <div class="portfolio_hover">
                             <div class="title">
-                                    <h3>Product Design</h3>
+                                    <h3>Photography</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!--div class="row">
                 <div class="col-xl-12">
                     <div class="more_portfolio text-center">
                         <a class="line_btn" href="#">More Folio</a>
                     </div>
                 </div>
-            </div>
+            </div-->
         </div>
     </div>
     <!--/ portfolio_image_area  -->
 
     <!-- about_me  -->
-    <div class="about_me">
+    <!--div class="about_me">
         <div class="about_large_title d-none d-lg-block">
-                About
+                
         </div>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-md-6">
+                <div class="col-xl-12 col-md-12">
                     <div class="about_e_details">
                         <h3>About me</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.</p>
@@ -275,16 +285,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div-->
     <!--/ about_me  -->
 
-    <div class="counter_area">
+    <!--div class="counter_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-md-4">
                     <div class="single_counter text-center">
                         <h3>
-                            <span class="counter" >70 </span><span>+</span>
+                            <span class="counter" >27 </span><span>+</span>
                         </h3>
                         <p>Total Projects</p>
                     </div>
@@ -292,7 +302,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_counter text-center">
                         <h3>
-                            <span class="counter">10 </span>
+                            <span class="counter">2 </span>
                         </h3>
                         <p>On Going Projects</p>
                     </div>
@@ -300,16 +310,16 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_counter text-center">
                         <h3>
-                            <span class="counter" >90 </span> <span>%</span>
+                            <span class="counter" >97</span> <span>%</span>
                         </h3>
                         <p>Job Success</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div-->
     <!-- testimonial_area  -->
-    <div class="testimonial_area ">
+    <!--div class="testimonial_area ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -369,7 +379,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
         <!-- /testimonial_area  -->
     
     <div class="discuss_projects">
@@ -379,7 +389,7 @@
                     <div class="project_text text-center">
                         <h3>Let's talk</h3>
                         <p>If you'd like to reach me <br> send me a message using Telegram.</p>
-                        <a class="boxed-btn3" href="#">Send message</a>
+                        <a target="_blank" class="boxed-btn3" href="https://t.me/andresryes">Send message</a>
                     </div>
                 </div>
             </div>
@@ -394,19 +404,20 @@
                     <div class="col-xl-6 col-md-6">
                         <div class="menu_links">
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="/#about">About</a></li>
+                                <li><a href="/">Home</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-6 col-md-6">
                         <div class="socail_links">
                             <ul>
-                                <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-                                <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
-                                <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                <li><a target="_blank" href="https://github.com/andresryes"> <i class="fa fa-github"></i> </a></li>
+                                <li><a target="_blank" href="https://www.linkedin.com/in/andresryes/"> <i class="fa fa-linkedin"></i> </a></li>
+                                <li><a target="_blank" href="https://twitter.com/andresryes_"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/andresryes/"> <i class="fa fa-instagram"></i> </a></li>
+                                <li><a target="_blank" href="https://www.facebook.com/andr.9810/"> <i class="fa fa-facebook"></i> </a></li>
+                                <li><a target="_blank" href="mailto:andresbolanosreyes@gmail.com"> <i class="fa fa-envelope"></i> </a></li>
                             </ul>
                         </div>
                     </div>
