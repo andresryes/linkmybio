@@ -3253,8 +3253,13 @@ h3 {
 }
 
 /* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_thumb {
+.portfolio_image_area .single_Portfolio .portfolio_thumb1 {
   height: 410px;
+}
+
+/* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
+.portfolio_image_area .single_Portfolio .portfolio_thumb {
+  height: 510px;
 }
 
 /* line 49, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */

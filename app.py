@@ -55,7 +55,7 @@ def addLink():
 @app.route('/cv')
 def CV_Final ():
     #For windows you need to use drive name [ex: F:/Example.pdf]
-    path = "./CV_Final.pdf"
+    path = "./CV_Final_eng.pdf"
     return send_file(path, as_attachment=False)
 
 
